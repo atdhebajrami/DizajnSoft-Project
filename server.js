@@ -383,10 +383,6 @@ app.delete("/User/SaveLiteratures", (req,res) => {
     }
 })
 
-
-
-
-
 app.post("/User/GetDownloadLiteratures", (req,res) => {
     try{
         var lista = [];
@@ -540,11 +536,6 @@ app.delete("/User/DownloadLiteratures", (req,res) => {
         res.json(response);
     }
 })
-
-
-
-
-
 
 app.post("/User/LiteratureReview", (req,res) => {
     try{

@@ -92,6 +92,7 @@
 .UserMenuContent {
     position: relative;
     width: 60%;
+    max-width: 700px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -148,6 +149,7 @@
 .UserSelectedBox {
     width: 50%;
     height: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     margin: auto;
